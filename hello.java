@@ -31,6 +31,11 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.Image;
+import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -47,7 +52,6 @@ public class GitLab implements EntryPoint {
 
 	private final FlexTable flexTable = new FlexTable();
 
-	final LoadUsersServiceAsync service = GWT.create(LoadUsersService.class);
 
 
 	/**
@@ -90,6 +94,15 @@ public class GitLab implements EntryPoint {
 		flexTable.setText(0,2, "Shopping Cart Size");
 		flexTable.setText(0,3, "Wish List Size");
 		flexTable.setStyleName("centered-table", true);
+				RootPanel.get("root").add(flexTable);
+		
+		flexTable.setText(0,0, "Name");
+				RootPanel.get("root").add(flexTable);
+		
+		flexTable.setText(0,0, "Name");
+				RootPanel.get("root").add(flexTable);
+		
+		flexTable.setText(0,0, "Name");
 		
 
 				flexTable.setText(0,3, "Wish List Size");
