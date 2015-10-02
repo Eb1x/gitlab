@@ -98,14 +98,12 @@ public class GitLab implements EntryPoint {
 		
 		flexTable.setText(0,0, "Name");
 				RootPanel.get("root").add(flexTable);
-<<<<<<< HEAD
 		
 		flexTable.setText(0,0, "Name");
 				RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
-=======
->>>>>>> branch
+
 		
 		flexTable.setText(0,0, "Name");
 				RootPanel.get("root").add(flexTable);
