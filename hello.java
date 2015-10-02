@@ -131,13 +131,10 @@ public class GitLab implements EntryPoint {
 			{
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
-<<<<<<< HEAD
 			flexTable.setText(i+1,1,user.getLanguage());
 			flexTable.setText(i+1,1,user.getLanguage());
 			flexTable.setText(i+1,2,String.valueOf(user.getShoppingCart().size()));
-=======
 				flexTable.setText(i+1,1,user.getLanguage());
->>>>>>> branch
 			
 			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
 		}
