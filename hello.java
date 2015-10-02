@@ -52,6 +52,9 @@ public class GitLab implements EntryPoint {
 
 	private final FlexTable flexTable = new FlexTable();
 
+		private final FlexTable flexTable2 = new FlexTable();
+
+
 
 
 	/**
@@ -102,14 +105,6 @@ public class GitLab implements EntryPoint {
 		flexTable.setText(0,0, "Name");
 				RootPanel.get("root").add(flexTable);
 		
-		flexTable.setText(0,0, "Name");
-
-		
-		flexTable.setText(0,0, "Name");
-				RootPanel.get("root").add(flexTable);
-		
-		flexTable.setText(0,0, "Name");
-		
 
 				flexTable.setText(0,3, "Wish List Size");
 		flexTable.setStyleName("centered-table", true);		flexTable.setText(0,3, "Wish List Size");
@@ -130,7 +125,8 @@ public class GitLab implements EntryPoint {
 			{
 				flexTable.setText(i+1,1,user.getLanguage());
 			}
-			
+			flexTable.setText(i+1,1,user.getLanguage());
+			flexTable.setText(i+1,1,user.getLanguage());
 			flexTable.setText(i+1,2,String.valueOf(user.getShoppingCart().size()));
 			
 			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
